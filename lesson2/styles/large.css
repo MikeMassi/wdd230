@@ -1,0 +1,15 @@
+@media only screen and (min-width:1028) {
+    main {max-width: 75rem; margin: auto;}
+
+    main {
+        display: grid;
+        column-count: 3;
+        width: 100%;
+        margin: 0;
+        padding: 1rem 2%;
+    }
+    
+    main figure {
+        width: 31%;
+    }
+}
