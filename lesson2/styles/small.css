@@ -22,26 +22,26 @@ header h2 {
 
 main {
     display: grid;
-    padding: 1rem 2%;
+    grid-template-columns: 1fr;
     background-color: blanchedalmond;
 }
 main figure img {width: 100%;}
 main figure {
     width: 100%;
-    margin: 0;
+    margin: auto;
 }
 h3 {
     color: white;
     background-color: #ffc61a;
     margin: 0;
-    padding: 6px;
+    padding: 2px;
     
 
 }
 h4 {
-    padding: 4px;
+    padding: 2px;
     text-decoration: none;
-    margin: .4rem 0;
+    margin: .1rem 0;
 }
 h4.link:hover {
     background-color: black;
@@ -49,19 +49,19 @@ h4.link:hover {
 .white-space {
     color:white;
     background-color: #4d2600;
-    margin: 50px;
+    margin: 5px;
     padding: 0;
 }
 .Alignment {
     color:white;
     background-color: #4d2600;
-    margin: 50px;
+    margin: 5px;
     padding: 0;
 }
 .Repetition {
     color:white;
     background-color: #4d2600;
-    margin: 50px;
+    margin: 5px;
     padding: 0;
 }
 
