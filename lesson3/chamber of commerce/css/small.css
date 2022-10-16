@@ -1,0 +1,110 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
+    margin: auto;
+}
+
+header,nav,main,footer{
+    max-width: 375px;
+
+}
+
+body {
+    font-size: 16px;
+    background-color: #141B41;
+}
+
+p {
+    font-family: 'Montserrat';
+}
+
+h1,h2 {
+    font-family: 'Roboto';
+}
+
+header {
+    padding: .5rem 2%;
+    background-color: #918EF4;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-size: 10px;
+}
+header div {margin-left: 10px;}
+header h1 { padding: .5rem 2%;
+            margin-left: 10px;
+            color:#F1FAEE;
+            
+        }
+header h2 {margin: 0; font-weight: normal;color:#A8DADC;}
+
+header img{
+    width: 100px;
+}
+
+
+.callus {grid-column: 2; align-self: center;}
+.connectwithus {grid-column: 3; align-self: center;}
+.join {grid-column: 4; align-self: center;}
+
+nav {
+    background-color: #306BAC;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #98B9F2;
+    color: #333;
+}
+nav ul li.active a {
+    background-color: #6F9CEB;
+    color: #fff;
+}
+
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+    background-color: #F1FAEE;
+    display: grid;
+    grid-template-columns: 128px auto;
+    width: 1800px;
+}
+
+main h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+main p {
+    margin-left: 12px;
+    align-self: center;
+    font-size: 12px;
+}
+
+main img {
+    width: 128px;
+    margin-top: 10px;
+}
+
+.color-scheme {
+    justify-content: center
+}
+
+footer {
+    background-color: #306BAC;
+    padding: .5rem 2%;
+    text-align: center;
+    color:#eee;
+}

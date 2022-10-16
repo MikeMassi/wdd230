@@ -1,0 +1,17 @@
+@media only screen and (min-width: 35rem) {
+
+header, nav, main, footer {
+    max-width: 35em;
+    margin:auto;
+}
+
+header img{
+    width: 150px;
+}
+
+    nav ul {
+        display: flex;
+        margin-left: 2%;
+    }
+    nav ul li a{padding: .5rem 1rem;}   
+}
